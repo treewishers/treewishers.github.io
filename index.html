@@ -15,7 +15,7 @@
             padding: 20px;
         }
         header {
-            background-color: #eeef94;
+            /* background-color: #eeef94; */
             color: white;
             text-align: center;
         }
@@ -24,20 +24,56 @@
             font-size: 2em;
         }
         section {
-            background-color: #F0F0F0;
-            /* margin: 20px 0; */
+            /* background-color: #F0F0F0; */
+            margin: 20px 0;
         }
         h2 {
             color: #eeef94;
         }
-        .content {
-            max-width: 800px;
-            /* margin: auto; */
+        .content-yellow {
+            background-color: #eeef94;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: auto;
+            align-items: center;
         }
-        .content img {
-            width: 100%;
+        .content-white {
+            background-color: #fff;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: auto;
+            align-items: center;
+        }
+        .content-black {
+            background-color: #333;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: auto;
+            align-items: center;
+        }
+        /* .content img {
+            width: 40%;
             height: auto;
             margin: 20px 0;
+        } */
+        .text {
+            flex: 1;
+            padding: 20px;
+        }
+        .image {
+            flex: 1;
+            padding: 20px;
+        }
+        .image img {
+            width: 100%;
+            height: auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
     </style>
 </head>
@@ -46,7 +82,8 @@
         <h1>Treewish</h1>
     </header>
     <section>
-        <div class="content">
+        <div class="content-yellow">
+            <div class="text">
             <h2>Qu’est-ce que Treewish?</h2>
             <p>Treewish est une plateforme collaborative permettant à chaque utilisateur.ice de placer librement sur une carte différents objets, comme des arbres, des bancs, des poubelles ou tout autre objet absent dans l’espace public. Chaque objet placé sur la carte peut être consulté par d’autres utilisateur.ices qui peuvent apporter leurs « soutien » ou « desaccord » et proposer d’autres objets.
 
@@ -57,22 +94,29 @@
                 La plantation de nouveaux arbres, l’installation de mobiliers, la création de nouveaux espaces ne peut se faire sans la participation d’experts (architectes paysagistes, ingénieurs civils, urbanistes, architectes….) et de l’appui des communes (services de ville, politiques, etc.) et de la participation citoyenne.
                 
                 Ce projet n’est pour le moment qu’une idée qui ne demande qu’à se concrétiser. Nous lançons une campagne de financement participatif afin de nous permettre de développer cette plateforme de manière indépendante. Voici l’accès à la cagnotte pour nous permettre de rendre possible cette plateforme :</p>
-            <img src="img/IllustrationWeb_Plan-de-travail-1.png" alt="Treewish Example">
+            </div>
+            <div class="image">
+                <img src="img/IllustrationWeb_Plan-de-travail-1.png" alt="Treewish Example">
+            </div>
         </div>
     </section>
     <section>
-        <div class="content">
+        <div class="content-white">
+            <div class="text">
             <h2>Pour commencer :</h2>
             <p>Comme souvent, avant de commencer à explorer la carte collaborative, vous devez vous créer un profil.
 
                 Celui-ci vous permettra de retrouver vos ajouts, vos soutiens et les groupes de discussions auxquels vous participez. un onglet vous permettra de gérer votre profil, d’ajouter ou supprimer des informations (Tips : vous n’êtes pas obligé d’utiliser de vraies informations à votre sujet).
                 
                 Pour les personnes morales (administrations, communes, services, associations…). Vous devez formuler une demande par mail à Treewish afin d’obtenir un accès spécial à la plateforme. Il vous permettra d’accéder à des cartes à télécharger, proposer des communications groupés sur les travaux en cours dans votre ville ou collecter des données statistiques (ages, nombre de soutiens par objets, etc…).</p>
-            <img src="img/TREEWISH-_-WEBSITE_Page_03-scaled.jpg" alt="Starting with Treewish">
+            </div>
+            <div class="image">
+                <img src="img/TREEWISH-_-WEBSITE_Page_03-scaled.jpg" alt="Starting with Treewish">
         </div>
     </section>
     <section>
-        <div class="content">
+        <div class="content-yellow">
+            <div class="text">
             <h2>Comment ça marche ?</h2>
             <p>Une fois votre inscription faite, vous serez dirigé vers la carte principale de l’application. Celle-ci vous permettra de placer librement différents objets sur la carte par « glisser-déposer ».
 
@@ -82,11 +126,15 @@
                 
                 Nous comptons sur vous et votre connaissance de votre lieu de vie ou de travail pour alimenter de la manière la plus juste cette carte.
                 </p>
+            </div>
+            <div class="image">
             <img src="img/TREEWISH-_-WEBSITE-1_Page_05.jpg" alt="How Treewish Works">
+        </div>
         </div>
     </section>
     <section>
-        <div class="content">
+        <div class="content-white">
+            <div class="text">
             <h2>Et ensuite?</h2>
             <p>La première étape consiste à collecter des « voeux », des propositions d’utilisateur.rices, grand.es connaisseur.euses de leur lieu de vie, au travers de la carte participative. Plus il y a de participant.tes, plus le projet fonctionne et plus son potentiel est grand.
                 
@@ -95,10 +143,12 @@
                 Grâce au mode « création de projets », vous pouvez créer votre propre périmètre et en inviter d’autres utilisateurs à rejoindre votre groupe de discussion.
                 
                 A vous ensuite de préciser vos souhaits, de discuter des emplacements de chaque objet et de jouer avec les différentes cartes pour connaître au mieux votre lieu de vie et ses contraintes.</p>
-        </div>
+            </div>
+            </div>
     </section>
     <section>
-        <div class="content">
+        <div class="content-yellow">
+            <div class="text">
             <h2>Créer un projet :</h2>
             <p>Dans le mode « création de projets », vous pouvez définir votre propre périmètre. Choisissez ensuite un nom et un intitulé (ex: « Quartier du Maupas, pour des rues plus vertes »)
 
@@ -111,17 +161,20 @@
                 Vous pourrez également extraire votre projet en pdf pour l’imprimer et le partager.
                 
                 Parlez-en ensuite autour de vous, créez une pétition, prenez contact avec votre commune, afin de présenter votre projet et discuter ensemble des potentielles améliorations possibles autour de chez vous.</p>
-            <img src="img/pagesSiteWeb_Page_09.jpg" alt="Creating a Project in Treewish">
+            </div>
+            <div class="image">
+                <img src="img/pagesSiteWeb_Page_09.jpg" alt="Creating a Project in Treewish">
+            </div>
         </div>
     </section>
     <section>
-        <div class="content">
+        <div class="content-white">
             <h2>Campagne de Crowdfunding</h2>
             <p>Ce projet n’est pour le moment qu’une esquisse. Nous lançons une campagne de crowfunding afin de concrétiser ce projet collaboratif...</p>
         </div>
     </section>
     <footer>
-        <div class="content">
+        <div class="content-black">
             <p>Contact: hi at treewish.org</p>
             <p>2024</p>
         </div>
